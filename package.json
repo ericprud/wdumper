@@ -6,7 +6,8 @@
   "private": true,
   "scripts": {
     "frontend-rollup": "cd frontend; rollup -c",
-    "frontend-less": "cd frontend; lessc css/main.less static/main.css"
+    "frontend-less": "cd frontend; lessc css/main.less static/main.css",
+    "all": "npm run frontend-rollup && npm run frontend-less"
   },
   "dependencies": {
     "autocompleter": "^4.0.2",
